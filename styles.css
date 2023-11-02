@@ -1,0 +1,48 @@
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(224, 247, 247);
+    color: rgb(5, 5, 73);
+}
+
+.container, .review{
+    
+    background-color: rgb(218, 230, 230);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 30%;
+}
+
+
+#person-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+#info{
+    text-align: center;
+
+}
+
+button{
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+}
+
+button:hover{
+    background-color: rgba(92, 108, 108, 0.47);
+}
